@@ -1,0 +1,28 @@
+@import 'normalize.css';
+
+:root{
+    padding:0;
+    margin:0;
+    --border-radius:80px;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+button,input,[tabindex]{
+    outline: none;
+    border: none;
+}
+a[href]{
+    color:#737680;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}

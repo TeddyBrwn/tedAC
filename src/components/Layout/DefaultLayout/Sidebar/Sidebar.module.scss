@@ -1,0 +1,30 @@
+.wrapper {
+    width: 400px;
+    display: flex;
+    border: 3px solid #000;
+    border-radius: var(--border-radius);
+    
+}
+.inner {
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    padding-top: 10px;
+    
+
+}
+.header-list{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-size:2.2rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    height: 30px;
+}
+// .product{
+//     border: 1px solid #ccc;
+//     width: 500px;
+//     height: 20px;
+//     display: flex;
+// }
