@@ -20,38 +20,7 @@
     height:100%
 }
 //search
-.search{
-    width: 400px;
-    height: 100%;
-    background-color: #fff;
-    border-radius: var(--search-border-radius);
-    padding-left: 16px;
-    border: 3px solid #000;
-    display: flex;
-    input{
-        flex: 1;
-        height: 100%;
-        color: #000;
-        font-size:1.6rem;
-        border: none;
-        background-color: transparent;
-        outline: none;
-        ::spelling-error {
-            text-decoration: none;
-          }
-    }
-}
-.search-btn{
-    width: 80px;
-    height: 100%; 
-    border-top-right-radius: var(--search-border-radius);
-    border-bottom-right-radius: var(--search-border-radius);
-    background-color: #fff;
-    &:hover{
-        background-color: #E6DBD1;
-    }
-    
-}
+
 //action
 .action{
     display: flex;

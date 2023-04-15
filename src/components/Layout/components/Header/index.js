@@ -1,8 +1,7 @@
 import classNames from "classnames/bind";
 import styles from "./Header.module.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import images from "~/assets/images";
+import Search from "../Search";
 
 const cx = classNames.bind(styles);
 
@@ -13,16 +12,7 @@ function Header() {
         <div className={cx("logo")}>
           <img src={images.logo} alt="logo" />
         </div>
-        <div className={cx("search")}>
-          <input
-            placeholder="Search..."
-            checkedspell="fasle"
-            type="text"
-          ></input>
-          <button className={cx("search-btn")}>
-            <FontAwesomeIcon icon={faMagnifyingGlass} />
-          </button>
-        </div>
+        <Search />
         <div className={cx("action")}>
           <div className={cx("info")}>
             <div className={cx("orderStatus")}>
